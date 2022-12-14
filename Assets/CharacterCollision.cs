@@ -10,17 +10,6 @@ public class CharacterCollision : MonoBehaviour
     public int lives = 3;
     public TMP_Text scoreRef;
     public TMP_Text livesRef;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnControllerColliderHit(ControllerColliderHit hit) {
         Rigidbody body = hit.collider.attachedRigidbody;
